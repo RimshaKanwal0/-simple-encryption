@@ -9,6 +9,13 @@ Encryption turns readable data (plaintext) into unreadable data (ciphertext) usi
 ## Decryption
 Decryption reverses this process, converting ciphertext back into plaintext using the appropriate key and algorithm.
 
+## Substitution Cipher
+The encryption technique used in the provided code is a simple form of Substitution Cipher:
+
+- In the `encryption` function, each character of the plaintext is substituted with a character whose ASCII value is increased by the length of the password.
+- In the `decryption` function, the opposite process occurs, where each character of the encrypted text is substituted back to its original value by subtracting the length of the password.
+
+
 ## Types of Encryption:
 
 1) Symmetric Encryption:
